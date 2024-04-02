@@ -1,0 +1,6 @@
+python-telegram-bot 
+transformers
+python-dotenv
+aiogram==2.5
+telegram
+torch
