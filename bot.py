@@ -14,7 +14,7 @@ huggingface_api_token = os.getenv("huggingface_api_token")
 token = 'TOKEN'
 
 # Hugging Face Model
-MODEL_NAME = "gpt2-medium"  # You can change to other models like "gpt2-medium", "gpt2-large", etc.
+MODEL_NAME = "meta-llama/Llama-2-7b-chat-hf"  # You can change to other models like "gpt2-medium", "gpt2-large", etc.
 
 # Initialize the Hugging Face model and tokenizer
 model = AutoModelForCausalLM.from_pretrained(MODEL_NAME,token=huggingface_api_token)
